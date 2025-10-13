@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "faiss-cpu>=1.12.0",
     "ipykernel>=6.30.1",
     "langchain>=0.3.27",
     "langchain-chroma>=0.2.6",
@@ -12,6 +13,9 @@ dependencies = [
     "langchain-google-genai>=2.1.12",
     "langchain-huggingface>=0.3.1",
     "langchain-openai>=0.3.33",
+    "pdfplumber>=0.11.7",
     "psycopg2>=2.9.10",
+    "pymupdf>=1.26.5",
+    "pypdf>=6.1.1",
     "python-dotenv>=1.1.1",
 ]
