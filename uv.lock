@@ -1897,6 +1897,7 @@ dependencies = [
     { name = "pytesseract" },
     { name = "python-dotenv" },
     { name = "qdrant-client" },
+    { name = "rich" },
     { name = "unstructured", extra = ["local-inference", "pdf"] },
 ]
 
@@ -1918,6 +1919,7 @@ requires-dist = [
     { name = "pytesseract", specifier = ">=0.3.13" },
     { name = "python-dotenv", specifier = ">=1.1.1" },
     { name = "qdrant-client", specifier = ">=1.15.1" },
+    { name = "rich", specifier = ">=14.2.0" },
     { name = "unstructured", extras = ["local-inference", "pdf"], specifier = ">=0.18.15" },
 ]
 

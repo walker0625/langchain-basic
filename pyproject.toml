@@ -21,5 +21,6 @@ dependencies = [
     "pytesseract>=0.3.13",
     "python-dotenv>=1.1.1",
     "qdrant-client>=1.15.1",
+    "rich>=14.2.0",
     "unstructured[local-inference,pdf]>=0.18.15",
 ]
