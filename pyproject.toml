@@ -18,6 +18,8 @@ dependencies = [
     "psycopg2>=2.9.10",
     "pymupdf>=1.26.5",
     "pypdf>=6.1.1",
+    "pytesseract>=0.3.13",
     "python-dotenv>=1.1.1",
     "qdrant-client>=1.15.1",
+    "unstructured[local-inference,pdf]>=0.18.15",
 ]
